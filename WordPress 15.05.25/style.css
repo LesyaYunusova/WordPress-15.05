@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1168px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+}
+
+.hero .left {
+  background: url(./images/mainpic.png) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero .left img {
+  margin: 40px 764px 516px 56px;
+}
+
+.hero .nav {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  margin: 40px 0px 0 576px;
+}
+
+.hero .nav .imgs {
+  display: flex;
+  gap: 40px;
+}
+
+.hero .nav .button {
+  text-decoration: none;
+  background: #156963;
+  padding: 8px 20px;
+
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: #fff;
+}
+.hero .nav .button1 {
+  text-decoration: none;
+  padding: 8px 20px;
+
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: #156963;
+}
+
+.hero .right {
+  margin-left: 177px;
+}
+.hero .right h1 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 68px;
+  color: #156963;
+  width: 523px;
+  margin-top: 110px;
+}
+.hero .right p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 178%;
+  color: #2c1500;
+  margin: 24px 0 110px 0;
+  width: 523px;
+}
+
+.hero .knopki {
+  display: flex;
+  margin-top: 110px;
+}
+.hero .knopki .leftt {
+  padding: 37px 50px 43px;
+  width: 320px;
+  height: 160px;
+}
+.hero .knopki .rightt {
+  padding: 37px 40px 43px;
+  width: 320px;
+  height: 160px;
+  background: #156963;
+}
+.hero .knopki .rightt span {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.hero .knopki .top {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.hero .knopki .top p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+.hero .knopki .leftt span {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 32px;
+  color: #156963;
+}
